@@ -21,7 +21,7 @@ DATA_DIRECTORY = BASE_DIRECTORY.parent / 'data'
 EQUITY_PORTFOLIO_CSV_FILENAME = DATA_DIRECTORY / "Portfolio_Instruments.csv"
 CRYPTOCURRENCY_PORTFOLIO_CSV_FILENAME = DATA_DIRECTORY / "CoinMarketCap_Cryptocurrency_IDs.csv"
 OUTPUT_DIRECTORY = BASE_DIRECTORY.parent / "output"
-OUTPUT_EXCEL_FILENAME = OUTPUT_DIRECTORY / "Portfolio Data.xlsx"
+OUTPUT_EXCEL_FILENAME = OUTPUT_DIRECTORY / "portfolio_data.xlsx"
 
 
 def write_excel_file(last_df, historical_df, cryptocurrency_last_price_df, commodity_df):
